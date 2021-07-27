@@ -1,8 +1,7 @@
 cff-version: 1.1.0
 message: "If you use this <s>software, please cite it as below."
 authors:
-  - family-names:
-     - foo">{{7*7}}${7*7}#{7*7}
+  - family-names: foo
     given-names: Stephan
     orcid: https://orcid.org/0000-0003-4925-7248
 title: "My Research Software"
